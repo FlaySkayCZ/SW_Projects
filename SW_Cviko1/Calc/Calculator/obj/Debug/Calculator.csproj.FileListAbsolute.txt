@@ -1,0 +1,10 @@
+C:\Users\flays\source\repos\SW_Cviko1\Calc\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\flays\source\repos\SW_Cviko1\Calc\Calculator\bin\Debug\Calculator.exe
+C:\Users\flays\source\repos\SW_Cviko1\Calc\Calculator\bin\Debug\Calculator.pdb
+C:\Users\flays\source\repos\SW_Cviko1\Calc\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\flays\source\repos\SW_Cviko1\Calc\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\flays\source\repos\SW_Cviko1\Calc\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\flays\source\repos\SW_Cviko1\Calc\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\flays\source\repos\SW_Cviko1\Calc\Calculator\obj\Debug\Calculator.exe
+C:\Users\flays\source\repos\SW_Cviko1\Calc\Calculator\obj\Debug\Calculator.pdb
+C:\Users\flays\source\repos\SW_Cviko1\Calc\Calculator\obj\Debug\Calculator.MainWin.resources
