@@ -9,3 +9,15 @@ C:\Users\flays\source\repos\SW_Cviko2\SW_Cviko2\SW_Cviko2\obj\Debug\SW_Cviko2.cs
 C:\Users\flays\source\repos\SW_Cviko2\SW_Cviko2\SW_Cviko2\obj\Debug\SW_Cviko2.exe
 C:\Users\flays\source\repos\SW_Cviko2\SW_Cviko2\SW_Cviko2\obj\Debug\SW_Cviko2.pdb
 C:\Users\flays\source\repos\SW_Cviko2\SW_Cviko2\SW_Cviko2\obj\Debug\SW_Cviko2.Transakce.resources
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko2\SW_Cviko2\SW_Cviko2\bin\Debug\SW_Cviko2.exe.config
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko2\SW_Cviko2\SW_Cviko2\bin\Debug\SW_Cviko2.exe
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko2\SW_Cviko2\SW_Cviko2\bin\Debug\SW_Cviko2.pdb
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko2\SW_Cviko2\SW_Cviko2\obj\Debug\SW_Cviko2.csprojAssemblyReference.cache
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko2\SW_Cviko2\SW_Cviko2\obj\Debug\SW_Cviko2.FormUcty.resources
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko2\SW_Cviko2\SW_Cviko2\obj\Debug\SW_Cviko2.Properties.Resources.resources
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko2\SW_Cviko2\SW_Cviko2\obj\Debug\SW_Cviko2.Transakce.resources
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko2\SW_Cviko2\SW_Cviko2\obj\Debug\SW_Cviko2.csproj.GenerateResource.cache
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko2\SW_Cviko2\SW_Cviko2\obj\Debug\SW_Cviko2.csproj.CoreCompileInputs.cache
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko2\SW_Cviko2\SW_Cviko2\obj\Debug\SW_Cviko2.exe
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko2\SW_Cviko2\SW_Cviko2\obj\Debug\SW_Cviko2.pdb
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko2\SW_Cviko2\SW_Cviko2\obj\Debug\SW_Cviko2.NewAccount.resources

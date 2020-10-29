@@ -9,6 +9,7 @@ using System.Windows.Forms;
 
 namespace SW_Cviko2
 {
+    [Serializable()]
     public class Ucet : INotifyPropertyChanged
     {
 
@@ -49,7 +50,7 @@ namespace SW_Cviko2
             this.Zustatek = z;
             this.Kontokorent = k;
         }
-       
+
 
         /// <summary>
         /// 
@@ -57,17 +58,49 @@ namespace SW_Cviko2
         /// <param name="v">Vstup</param>
         public void Vloz(float v)
         {
-            if (v > 0)
+            if (v >= 0)
                 this.Zustatek += v;
             else
                 throw new MyGenericException("Vstup nesmí být záporné číslo");
         }
         public void Vyber(float v)
         {
-            if (v < Zustatek)
-            this.Zustatek -= v;
+            if (v >= 0)
+            {
+                if (this.Kontokorent > 0)
+                {
+                    if (v <= (Zustatek + Kontokorent))
+                    {
+                        this.Zustatek -= v;
+                    }
+                    else
+                        throw new MyGenericException("Není dostatečný zůstatek a vyčerpali jste kontokorent");
+                }
+                if (this.Kontokorent == 0)
+                {
+                    if (v <= Zustatek)
+                        this.Zustatek -= v;
+                    else
+                        throw new MyGenericException("Není dostatečný zůstatek");
+                }
+            }
             else
-                throw new MyGenericException("Není dostatečný zůstatek");
+                throw new MyGenericException("Vstup nesmí být záporné číslo");
+
+
+            //   if (v >= 0)
+            //   {
+            //       if (v < Zustatek)
+            //           this.Zustatek -= v;
+            //       else
+            //           throw new MyGenericException("Není dostatečný zůstatek");
+            //   }
+            //   else
+            //       throw new MyGenericException("Vstup nesmí být záporné číslo");
+        }
+        public float DisponabilniZustatek()
+        {
+            return this.Kontokorent + this.Zustatek;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

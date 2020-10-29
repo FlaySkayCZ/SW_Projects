@@ -31,6 +31,10 @@
             this.dataGridView_Ucty = new System.Windows.Forms.DataGridView();
             this.label_Ucty = new System.Windows.Forms.Label();
             this.button_Transaction = new System.Windows.Forms.Button();
+            this.button_Filter = new System.Windows.Forms.Button();
+            this.textBox_Filter = new System.Windows.Forms.TextBox();
+            this.button_NewAccount = new System.Windows.Forms.Button();
+            this.button_deleteAccount = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Ucty)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,16 +65,58 @@
             this.button_Transaction.UseVisualStyleBackColor = true;
             this.button_Transaction.Click += new System.EventHandler(this.button_Transaction_Click);
             // 
+            // button_Filter
+            // 
+            this.button_Filter.Location = new System.Drawing.Point(713, 61);
+            this.button_Filter.Name = "button_Filter";
+            this.button_Filter.Size = new System.Drawing.Size(75, 23);
+            this.button_Filter.TabIndex = 3;
+            this.button_Filter.Text = "Filtruj";
+            this.button_Filter.UseVisualStyleBackColor = true;
+            this.button_Filter.Click += new System.EventHandler(this.button_Filter_Click);
+            // 
+            // textBox_Filter
+            // 
+            this.textBox_Filter.Location = new System.Drawing.Point(512, 63);
+            this.textBox_Filter.Name = "textBox_Filter";
+            this.textBox_Filter.Size = new System.Drawing.Size(195, 20);
+            this.textBox_Filter.TabIndex = 4;
+            // 
+            // button_NewAccount
+            // 
+            this.button_NewAccount.Location = new System.Drawing.Point(540, 529);
+            this.button_NewAccount.Name = "button_NewAccount";
+            this.button_NewAccount.Size = new System.Drawing.Size(121, 23);
+            this.button_NewAccount.TabIndex = 5;
+            this.button_NewAccount.Text = "Přidat Nový účet";
+            this.button_NewAccount.UseVisualStyleBackColor = true;
+            this.button_NewAccount.Click += new System.EventHandler(this.button_NewAccount_Click);
+            // 
+            // button_deleteAccount
+            // 
+            this.button_deleteAccount.Location = new System.Drawing.Point(667, 529);
+            this.button_deleteAccount.Name = "button_deleteAccount";
+            this.button_deleteAccount.Size = new System.Drawing.Size(121, 23);
+            this.button_deleteAccount.TabIndex = 6;
+            this.button_deleteAccount.Text = "Smazat účet";
+            this.button_deleteAccount.UseVisualStyleBackColor = true;
+            this.button_deleteAccount.Click += new System.EventHandler(this.button_deleteAccount_Click);
+            // 
             // FormUcty
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 564);
+            this.Controls.Add(this.button_deleteAccount);
+            this.Controls.Add(this.button_NewAccount);
+            this.Controls.Add(this.textBox_Filter);
+            this.Controls.Add(this.button_Filter);
             this.Controls.Add(this.button_Transaction);
             this.Controls.Add(this.label_Ucty);
             this.Controls.Add(this.dataGridView_Ucty);
             this.Name = "FormUcty";
             this.Text = "Ucet";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormUcty_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Ucty)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -82,6 +128,10 @@
         private System.Windows.Forms.DataGridView dataGridView_Ucty;
         private System.Windows.Forms.Label label_Ucty;
         private System.Windows.Forms.Button button_Transaction;
+        private System.Windows.Forms.Button button_Filter;
+        private System.Windows.Forms.TextBox textBox_Filter;
+        private System.Windows.Forms.Button button_NewAccount;
+        private System.Windows.Forms.Button button_deleteAccount;
     }
 }
 
