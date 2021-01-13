@@ -17,6 +17,15 @@ namespace SW_Cviko2
           System.Runtime.Serialization.SerializationInfo info,
           System.Runtime.Serialization.StreamingContext context) : base(info, context) { }
     }
-
+    [Serializable]
+    public class MyOtherEx : Exception
+    {
+        public MyOtherEx() { }
+        public MyOtherEx(string message) : base(message) { }
+        public MyOtherEx(string message, Exception inner) : base(message, inner) { }
+        protected MyOtherEx(
+          System.Runtime.Serialization.SerializationInfo info,
+          System.Runtime.Serialization.StreamingContext context) : base(info, context) { }
+    }
 
 }

@@ -74,14 +74,16 @@ namespace SW_Cviko2
                         this.Zustatek -= v;
                     }
                     else
-                        throw new MyGenericException("Není dostatečný zůstatek a vyčerpali jste kontokorent");
+                        throw new MyOtherEx("Není dostatečný zůstatek a vyčerpali jste kontokorent");
                 }
                 if (this.Kontokorent == 0)
                 {
                     if (v <= Zustatek)
                         this.Zustatek -= v;
-                    else
+                    else {
                         throw new MyGenericException("Není dostatečný zůstatek");
+                        throw new MyOtherEx("");
+                }
                 }
             }
             else

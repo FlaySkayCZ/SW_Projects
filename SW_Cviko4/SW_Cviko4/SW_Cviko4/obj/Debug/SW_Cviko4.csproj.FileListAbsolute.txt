@@ -1,0 +1,10 @@
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko4\SW_Cviko4\SW_Cviko4\obj\Debug\SW_Cviko4.csprojAssemblyReference.cache
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko4\SW_Cviko4\SW_Cviko4\obj\Debug\SW_Cviko4.Form1.resources
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko4\SW_Cviko4\SW_Cviko4\obj\Debug\SW_Cviko4.Properties.Resources.resources
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko4\SW_Cviko4\SW_Cviko4\obj\Debug\SW_Cviko4.csproj.GenerateResource.cache
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko4\SW_Cviko4\SW_Cviko4\obj\Debug\SW_Cviko4.csproj.CoreCompileInputs.cache
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko4\SW_Cviko4\SW_Cviko4\bin\Debug\SW_Cviko4.exe.config
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko4\SW_Cviko4\SW_Cviko4\bin\Debug\SW_Cviko4.exe
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko4\SW_Cviko4\SW_Cviko4\bin\Debug\SW_Cviko4.pdb
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko4\SW_Cviko4\SW_Cviko4\obj\Debug\SW_Cviko4.exe
+C:\Users\flays\source\repos\SW_Projects\SW_Cviko4\SW_Cviko4\SW_Cviko4\obj\Debug\SW_Cviko4.pdb
